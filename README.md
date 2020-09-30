@@ -5,6 +5,7 @@ Basic project with Android and Web sides.
 There are 2 types of perspectives; **User** and **Tipper**.
 
 **User** can download the Android app to access bet tips. (see img. 1-2)
+
 **Tipper** can add new tips by using Node.js based web interface. (see img. 3)
 
 The project is using Firebase Realtime Database.
