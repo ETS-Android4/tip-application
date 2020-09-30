@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="45">
+
+        <TextView
+            android:id="@+id/tvHomeTeam"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:drawableRight="@android:drawable/ic_delete"
+            android:gravity="center"
+            android:text="Home Team"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:text="Match Code"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tvMatchCode"
+            android:layout_below="@+id/tvHomeTeam"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="55">
+
+        <TextView
+            android:gravity="center"
+            android:text="Away Team"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:id="@+id/tvAwayTeam"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:gravity="center"
+            android:text="Prediction"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/tvPrediction"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/tvAwayTeam"/>
+    </LinearLayout>
+
+</LinearLayout>

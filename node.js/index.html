@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip-App</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 d-flex justify-content-center" style="margin-top: 10%">
+
+			  <form action = "https://tip-application.herokuapp.com/process_get" method = "GET">
+				  <div class="form-group">
+				    <input type="text" class="form-control-lg" name="home_parameter" id="home_parameter" placeholder="Home Team">
+				  </div>
+				  <div class="form-group">
+				    <input type="text" class="form-control-lg" name="away_parameter" id="away_parameter" placeholder="Away Team">
+				  </div>
+				  <div class="form-group">
+				    <input type="text" class="form-control-lg" name="code_parameter" id="code_parameter" placeholder="Match Code">
+				  </div>
+				  <div class="form-group">
+				    <input type="text" class="form-control-lg" name="prediction_parameter" id="prediction_parameter" placeholder="Prediction">
+				  </div>
+			      <select name="tipperDropdown" class="form-control">
+			        <option selected>Select Tipper</option>
+			        <option value="1">Alperen</option>
+			        <option value="2">Göktürk</option>
+			      </select>
+				  <button type="submit" class="btn btn-warning" style="margin-top: 5%">Submit</button>
+			   </form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

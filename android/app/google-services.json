@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203142766109",
+    "firebase_url": "https://tipapp-d06db.firebaseio.com",
+    "project_id": "tipapp-d06db",
+    "storage_bucket": "tipapp-d06db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203142766109:android:4ae638bd3df2791d04f0f4",
+        "android_client_info": {
+          "package_name": "com.yetkinyurtsever.betproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203142766109-5tk9mdpkbni0pot3ddvv5u4g5spi02po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yetkinyurtsever.betproject",
+            "certificate_hash": "244ccc8f5f039bc348d52f733fa8343d91ad2ae5"
+          }
+        },
+        {
+          "client_id": "203142766109-gfhc644qsrg8h23kk6j58iu6tdnkjpg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxdlfeCVPzROa6qYq5QTHuk8W9xGD7A9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203142766109-gfhc644qsrg8h23kk6j58iu6tdnkjpg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
