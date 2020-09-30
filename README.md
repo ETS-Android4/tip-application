@@ -10,6 +10,14 @@ There are 2 types of perspectives; **User** and **Tipper**.
 
 The project is using Firebase Realtime Database.
 
-![Image 1: Opening Page of Android app](https://i.imgur.com/5kyGC2H.jpg)
-![Image 2: Tips List on Android app](https://i.imgur.com/JoTfgXx.jpg)
-![Image 3: Tippers Interface](https://i.imgur.com/RKNC8fe.jpg)
+![Image 1: Opening Page of Android app](https://i.imgur.com/5kyGC2H.jpg) 
+
+[Image 1: Opening Page of Android app]
+
+![Image 2: Tips List on Android app](https://i.imgur.com/JoTfgXx.jpg) 
+
+[Image 2: Tips List on Android app]
+
+![Image 3: Tippers Interface](https://i.imgur.com/RKNC8fe.jpg) 
+
+[Image 3: Tippers Interface]
