@@ -1,5 +1,7 @@
 # Tip Application
 
+![General Description of Tip Application](https://i.imgur.com/OQrAIzr.jpg) 
+
 Basic project with Android and Web sides.
 
 There are 2 types of perspectives; **User** and **Tipper**.
